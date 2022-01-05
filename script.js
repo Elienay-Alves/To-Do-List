@@ -4,7 +4,8 @@ const criarTarefas = document.getElementById('criar-tarefa');
 const textoTarefa = document.getElementById('texto-tarefa');
 
 //  Abaixo vamos criar as funções
-function addTarefa() {
+// Criando o botão para adicionar as tarefas
+function addTask() {
   const listaDeTarefas = textoTarefa.value;
   const lista = document.createElement('li');
 
@@ -13,5 +14,8 @@ function addTarefa() {
   // Aprendi a limpar o input no site https://www.geeksforgeeks.org/html-clearing-the-input-field/
   textoTarefa.value = '';
 }
-// Criando o botão para adicionar as tarefas
-criarTarefas.addEventListener('click', addTarefa);
+criarTarefas.addEventListener('click', addTask);
+
+// Criando função que deve mudar o background da tarefa selecionada
+
+function
