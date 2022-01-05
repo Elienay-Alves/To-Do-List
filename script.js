@@ -19,7 +19,14 @@ criarTarefas.addEventListener('click', addTask);
 // Criando função que deve mudar o background da tarefa selecionada
 // Recebi uma ajuda do Bruno Ro7 nesse Requisito
 
-function taskColor() {
-  const
+function taskColor(event) {
+  const coloringTheTask = document.getElementsByTagName('li');
 
+  for (const task of coloringTheTask) {
+    task.className = '';
+
+    event.target.className = 'taskColor';
+  }
 }
+
+listaTarefas.addEventListener('click', taskColor);
