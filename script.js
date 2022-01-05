@@ -17,5 +17,9 @@ function addTask() {
 criarTarefas.addEventListener('click', addTask);
 
 // Criando função que deve mudar o background da tarefa selecionada
+// Recebi uma ajuda do Bruno Ro7 nesse Requisito
 
-function
+function taskColor() {
+  const
+
+}
