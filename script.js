@@ -36,7 +36,7 @@ const resetButton = document.getElementById('apaga-tudo');
 
 function resetAll() {
   const removeTasks = document.getElementById('lista-tarefas');
-  removeTasks.innerHTML = '';
+  removeTasks.innerText = '';
 }
 
 resetButton.addEventListener('click', resetAll);
