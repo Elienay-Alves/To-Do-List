@@ -30,3 +30,13 @@ function taskColor(event) {
 }
 
 listaTarefas.addEventListener('click', taskColor);
+
+// Criando botão que apaga tudo
+const resetButton = document.getElementById('apaga-tudo');
+
+function resetAll() {
+  const removeTasks = document.getElementById('lista-tarefas');
+  removeTasks.innerHTML = '';
+}
+
+resetButton.addEventListener('dblclick', resetAll);
