@@ -39,4 +39,4 @@ function resetAll() {
   removeTasks.innerHTML = '';
 }
 
-resetButton.addEventListener('dblclick', resetAll);
+resetButton.addEventListener('click', resetAll);
